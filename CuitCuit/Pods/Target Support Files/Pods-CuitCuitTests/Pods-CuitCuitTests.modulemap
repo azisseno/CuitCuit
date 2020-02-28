@@ -1,0 +1,6 @@
+framework module Pods_CuitCuitTests {
+  umbrella header "Pods-CuitCuitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

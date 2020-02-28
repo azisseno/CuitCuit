@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9CF2D0A3675F79630B3018 /* Pods_CuitCuit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFE09F3A2D35DFAFF46A2B6 /* Pods_CuitCuit.framework */; };
+		48A829ADCCEBB02C181C6902 /* Pods_CuitCuit_CuitCuitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196D44E14CBDA16E8CC9A872 /* Pods_CuitCuit_CuitCuitUITests.framework */; };
+		EA1F47FA582D6BAA437068AF /* Pods_CuitCuitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3693189BF4C233C05257B38 /* Pods_CuitCuitTests.framework */; };
 		EEF930CB2408FFD300EEB2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930CA2408FFD300EEB2A0 /* AppDelegate.swift */; };
 		EEF930CD2408FFD300EEB2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930CC2408FFD300EEB2A0 /* SceneDelegate.swift */; };
 		EEF930CF2408FFD300EEB2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930CE2408FFD300EEB2A0 /* ViewController.swift */; };
@@ -15,6 +18,13 @@
 		EEF930D72408FFE700EEB2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF930D52408FFE700EEB2A0 /* LaunchScreen.storyboard */; };
 		EEF930E22408FFE900EEB2A0 /* CuitCuitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930E12408FFE900EEB2A0 /* CuitCuitTests.swift */; };
 		EEF930ED2408FFE900EEB2A0 /* CuitCuitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930EC2408FFE900EEB2A0 /* CuitCuitUITests.swift */; };
+		EEF930FB240902DE00EEB2A0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930FA240902DE00EEB2A0 /* HomeTableViewController.swift */; };
+		EEF9310024090C8D00EEB2A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF930FF24090C8D00EEB2A0 /* LoginViewController.swift */; };
+		EEF9310224090CA400EEB2A0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9310124090CA400EEB2A0 /* SignupViewController.swift */; };
+		EEF931052409154600EEB2A0 /* CuitFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF931042409154500EEB2A0 /* CuitFeedView.swift */; };
+		EEF931072409157600EEB2A0 /* CuitFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF931062409157600EEB2A0 /* CuitFeedView.xib */; };
+		EEF9310924091AFB00EEB2A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9310824091AFB00EEB2A0 /* HomeViewController.swift */; };
+		EEF9310C240920F700EEB2A0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9310B240920F700EEB2A0 /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		196D44E14CBDA16E8CC9A872 /* Pods_CuitCuit_CuitCuitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuitCuit_CuitCuitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AED4E811AD3AF088A7AC292 /* Pods-CuitCuit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuit.release.xcconfig"; path = "Target Support Files/Pods-CuitCuit/Pods-CuitCuit.release.xcconfig"; sourceTree = "<group>"; };
+		4B6758FF80DB54FFCDDC1E65 /* Pods-CuitCuit-CuitCuitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuit-CuitCuitUITests.debug.xcconfig"; path = "Target Support Files/Pods-CuitCuit-CuitCuitUITests/Pods-CuitCuit-CuitCuitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76EB2BD4BD217A55BCFFB212 /* Pods-CuitCuit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuit.debug.xcconfig"; path = "Target Support Files/Pods-CuitCuit/Pods-CuitCuit.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC3B7CD433332E723537BC5 /* Pods-CuitCuitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuitTests.release.xcconfig"; path = "Target Support Files/Pods-CuitCuitTests/Pods-CuitCuitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A399890F2FE7B18849675301 /* Pods-CuitCuitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuitTests.debug.xcconfig"; path = "Target Support Files/Pods-CuitCuitTests/Pods-CuitCuitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E470736378BB656FF1AB5182 /* Pods-CuitCuit-CuitCuitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuitCuit-CuitCuitUITests.release.xcconfig"; path = "Target Support Files/Pods-CuitCuit-CuitCuitUITests/Pods-CuitCuit-CuitCuitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EEF930C72408FFD200EEB2A0 /* CuitCuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuitCuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF930CA2408FFD300EEB2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF930CC2408FFD300EEB2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		EEF930E82408FFE900EEB2A0 /* CuitCuitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuitCuitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF930EC2408FFE900EEB2A0 /* CuitCuitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuitCuitUITests.swift; sourceTree = "<group>"; };
 		EEF930EE2408FFE900EEB2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF930FA240902DE00EEB2A0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EEF930FF24090C8D00EEB2A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEF9310124090CA400EEB2A0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EEF931042409154500EEB2A0 /* CuitFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuitFeedView.swift; sourceTree = "<group>"; };
+		EEF931062409157600EEB2A0 /* CuitFeedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CuitFeedView.xib; sourceTree = "<group>"; };
+		EEF9310824091AFB00EEB2A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EEF9310B240920F700EEB2A0 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		F3693189BF4C233C05257B38 /* Pods_CuitCuitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuitCuitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE09F3A2D35DFAFF46A2B6 /* Pods_CuitCuit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuitCuit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9CF2D0A3675F79630B3018 /* Pods_CuitCuit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1F47FA582D6BAA437068AF /* Pods_CuitCuitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A829ADCCEBB02C181C6902 /* Pods_CuitCuit_CuitCuitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7DC512E60C9A9577540BAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EB2BD4BD217A55BCFFB212 /* Pods-CuitCuit.debug.xcconfig */,
+				2AED4E811AD3AF088A7AC292 /* Pods-CuitCuit.release.xcconfig */,
+				4B6758FF80DB54FFCDDC1E65 /* Pods-CuitCuit-CuitCuitUITests.debug.xcconfig */,
+				E470736378BB656FF1AB5182 /* Pods-CuitCuit-CuitCuitUITests.release.xcconfig */,
+				A399890F2FE7B18849675301 /* Pods-CuitCuitTests.debug.xcconfig */,
+				9BC3B7CD433332E723537BC5 /* Pods-CuitCuitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C170226130318C4B0A72918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE09F3A2D35DFAFF46A2B6 /* Pods_CuitCuit.framework */,
+				196D44E14CBDA16E8CC9A872 /* Pods_CuitCuit_CuitCuitUITests.framework */,
+				F3693189BF4C233C05257B38 /* Pods_CuitCuitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEF930BE2408FFD100EEB2A0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				EEF930E02408FFE900EEB2A0 /* CuitCuitTests */,
 				EEF930EB2408FFE900EEB2A0 /* CuitCuitUITests */,
 				EEF930C82408FFD200EEB2A0 /* Products */,
+				1F7DC512E60C9A9577540BAC /* Pods */,
+				7C170226130318C4B0A72918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +157,11 @@
 				EEF930CC2408FFD300EEB2A0 /* SceneDelegate.swift */,
 				EEF930CE2408FFD300EEB2A0 /* ViewController.swift */,
 				EEF930D02408FFD300EEB2A0 /* Main.storyboard */,
+				EEF930FA240902DE00EEB2A0 /* HomeTableViewController.swift */,
+				EEF9310824091AFB00EEB2A0 /* HomeViewController.swift */,
+				EEF931032409113200EEB2A0 /* Cuit Feed View */,
+				EEF930FE24090C7500EEB2A0 /* Auth */,
+				EEF9310A240920CE00EEB2A0 /* Models */,
 				EEF930D32408FFE700EEB2A0 /* Assets.xcassets */,
 				EEF930D52408FFE700EEB2A0 /* LaunchScreen.storyboard */,
 				EEF930D82408FFE700EEB2A0 /* Info.plist */,
@@ -128,6 +187,33 @@
 			path = CuitCuitUITests;
 			sourceTree = "<group>";
 		};
+		EEF930FE24090C7500EEB2A0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EEF930FF24090C8D00EEB2A0 /* LoginViewController.swift */,
+				EEF9310124090CA400EEB2A0 /* SignupViewController.swift */,
+			);
+			name = Auth;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EEF931032409113200EEB2A0 /* Cuit Feed View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF931042409154500EEB2A0 /* CuitFeedView.swift */,
+				EEF931062409157600EEB2A0 /* CuitFeedView.xib */,
+			);
+			path = "Cuit Feed View";
+			sourceTree = "<group>";
+		};
+		EEF9310A240920CE00EEB2A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9310B240920F700EEB2A0 /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEF930F12408FFE900EEB2A0 /* Build configuration list for PBXNativeTarget "CuitCuit" */;
 			buildPhases = (
+				49A256656E1C5509EA8633E5 /* [CP] Check Pods Manifest.lock */,
 				EEF930C32408FFD100EEB2A0 /* Sources */,
 				EEF930C42408FFD100EEB2A0 /* Frameworks */,
 				EEF930C52408FFD100EEB2A0 /* Resources */,
+				111680B2693FED6B3FEA37F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEF930F42408FFE900EEB2A0 /* Build configuration list for PBXNativeTarget "CuitCuitTests" */;
 			buildPhases = (
+				437E6A31C6E2B7FAC41509F3 /* [CP] Check Pods Manifest.lock */,
 				EEF930D92408FFE900EEB2A0 /* Sources */,
 				EEF930DA2408FFE900EEB2A0 /* Frameworks */,
 				EEF930DB2408FFE900EEB2A0 /* Resources */,
@@ -170,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEF930F72408FFE900EEB2A0 /* Build configuration list for PBXNativeTarget "CuitCuitUITests" */;
 			buildPhases = (
+				B5DDD3938565E4BAC82C8355 /* [CP] Check Pods Manifest.lock */,
 				EEF930E42408FFE900EEB2A0 /* Sources */,
 				EEF930E52408FFE900EEB2A0 /* Frameworks */,
 				EEF930E62408FFE900EEB2A0 /* Resources */,
+				68152DD7972D0A27DEA5006E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF930D72408FFE700EEB2A0 /* LaunchScreen.storyboard in Resources */,
+				EEF931072409157600EEB2A0 /* CuitFeedView.xib in Resources */,
 				EEF930D42408FFE700EEB2A0 /* Assets.xcassets in Resources */,
 				EEF930D22408FFD300EEB2A0 /* Main.storyboard in Resources */,
 			);
@@ -254,11 +346,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		111680B2693FED6B3FEA37F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuitCuit/Pods-CuitCuit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuitCuit/Pods-CuitCuit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuitCuit/Pods-CuitCuit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		437E6A31C6E2B7FAC41509F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CuitCuitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A256656E1C5509EA8633E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CuitCuit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68152DD7972D0A27DEA5006E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuitCuit-CuitCuitUITests/Pods-CuitCuit-CuitCuitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuitCuit-CuitCuitUITests/Pods-CuitCuit-CuitCuitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuitCuit-CuitCuitUITests/Pods-CuitCuit-CuitCuitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DDD3938565E4BAC82C8355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CuitCuit-CuitCuitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEF930C32408FFD100EEB2A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF9310024090C8D00EEB2A0 /* LoginViewController.swift in Sources */,
+				EEF931052409154600EEB2A0 /* CuitFeedView.swift in Sources */,
+				EEF9310224090CA400EEB2A0 /* SignupViewController.swift in Sources */,
+				EEF9310924091AFB00EEB2A0 /* HomeViewController.swift in Sources */,
+				EEF930FB240902DE00EEB2A0 /* HomeTableViewController.swift in Sources */,
+				EEF9310C240920F700EEB2A0 /* Content.swift in Sources */,
 				EEF930CF2408FFD300EEB2A0 /* ViewController.swift in Sources */,
 				EEF930CB2408FFD300EEB2A0 /* AppDelegate.swift in Sources */,
 				EEF930CD2408FFD300EEB2A0 /* SceneDelegate.swift in Sources */,
@@ -432,6 +633,7 @@
 		};
 		EEF930F22408FFE900EEB2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76EB2BD4BD217A55BCFFB212 /* Pods-CuitCuit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +652,7 @@
 		};
 		EEF930F32408FFE900EEB2A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AED4E811AD3AF088A7AC292 /* Pods-CuitCuit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +671,7 @@
 		};
 		EEF930F52408FFE900EEB2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A399890F2FE7B18849675301 /* Pods-CuitCuitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +694,7 @@
 		};
 		EEF930F62408FFE900EEB2A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC3B7CD433332E723537BC5 /* Pods-CuitCuitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +717,7 @@
 		};
 		EEF930F82408FFE900EEB2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6758FF80DB54FFCDDC1E65 /* Pods-CuitCuit-CuitCuitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +738,7 @@
 		};
 		EEF930F92408FFE900EEB2A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E470736378BB656FF1AB5182 /* Pods-CuitCuit-CuitCuitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
